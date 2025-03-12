@@ -5,15 +5,15 @@
 */
 
 int main(){
-	int a, b;
+	float a, b;
 	
 	printf("Diga dois numeros: ");
-	scanf("%d%d", &a, &b);
+	scanf("%f%f", &a, &b);
 	
-	printf("Soma -> %d\n", a + b);
-	printf("multiplicacao -> %d\n", a * b);
-	printf("subtracao -> %d\n", a - b);
-	printf("Divisao -> %d\n", a / b);
+	printf("Soma -> %.2f\n", a + b);
+	printf("multiplicacao -> %.2f\n", a * b);
+	printf("subtracao -> %.2f\n", a - b);
+	printf("Divisao -> %.2f\n", a / b);
 	
 	return 0;
 }
