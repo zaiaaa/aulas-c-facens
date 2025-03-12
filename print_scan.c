@@ -22,15 +22,17 @@ void main(){
 	printf("Altura: %.2f\n", altura);
 	printf("Inicial do nome: %c\n", inicial);
 	
+	/*printf("Entre com a inicial: ");
+	scanf("%c", &inicial);*/
+
 	printf("Entre com a idade: ");
 	scanf("%d", &idade);	
 	
 	printf("Entre com a altura: ");
-	scanf("%f", &altura);
+	scanf("%f", &altura);	
 	
 	printf("Entre com a inicial: ");
-	scanf("%c", &inicial);
-	
+	scanf("%*c%c", &inicial);
 	
 	printf("Sua nova idade e de: %d\n", idade);
 	printf("Sua nova altura e de: %.2f\n", altura);
