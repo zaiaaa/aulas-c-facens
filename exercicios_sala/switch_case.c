@@ -10,7 +10,7 @@ void main(){
 
     printf("Agora digite a operação que deseja realizar: \n");
     //ta " %c" pq pode dar erro de de leitura por causa do enter q a gnt deu no scan anterior.
-    scanf(" %c", &operacao);
+    scanf("%d", &operacao);
 
     switch(operacao){
 
